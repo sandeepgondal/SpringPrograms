@@ -10,7 +10,7 @@ public class MainClass {
 
         ApplicationContext context = new ClassPathXmlApplicationContext("XMLConfig1.xml", "XMLConfig2.xml");
         Employee employee = (Employee) context.getBean("employee");
-        Department department = (Department) context.getBean("department");
+        Department department = context.getBean("department", Department.class);
         System.out.println(employee);
         System.out.println(department);
     }
