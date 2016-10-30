@@ -1,4 +1,4 @@
-package com.sandy.spring.di.javaconfig;
+package com.sandy.spring.di.beanconfig.javaconfig;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

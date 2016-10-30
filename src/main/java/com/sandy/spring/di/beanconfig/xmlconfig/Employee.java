@@ -1,4 +1,4 @@
-package com.sandy.spring.di.xmlconfig;
+package com.sandy.spring.di.beanconfig.xmlconfig;
 
 public class Employee {
 

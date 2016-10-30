@@ -1,4 +1,4 @@
-package com.sandy.spring.di.javaconfig;
+package com.sandy.spring.di.beanconfig.javaconfig;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
