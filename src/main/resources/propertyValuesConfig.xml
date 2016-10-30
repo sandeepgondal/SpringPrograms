@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="location" value="database.properties"/>
+    </bean>
+
+    <bean id="databaseBean" class="com.sandy.spring.di.propertyvalues.DatabaseBean">
+        <property name="databaseURL" value="${database.url}" />
+        <property name="databaseUsername" value="${database.username}" />
+        <property name="databasePassword" value="${database.password}" />
+        <property name="databaseDriverName" value="${database.drivername}" />
+    </bean>
+
+</beans>
