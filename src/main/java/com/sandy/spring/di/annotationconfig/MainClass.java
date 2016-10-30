@@ -1,4 +1,4 @@
-package com.sandy.spring.di.annotation;
+package com.sandy.spring.di.annotationconfig;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

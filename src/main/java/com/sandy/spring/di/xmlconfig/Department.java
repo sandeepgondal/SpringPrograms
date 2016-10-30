@@ -1,4 +1,4 @@
-package com.sandy.spring.di.xml;
+package com.sandy.spring.di.xmlconfig;
 
 public class Department {
 

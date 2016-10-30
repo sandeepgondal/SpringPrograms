@@ -3,6 +3,6 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="department" class="com.sandy.spring.di.xml.Department" />
+    <bean id="department" class="com.sandy.spring.di.xmlconfig.Department" />
 
 </beans>

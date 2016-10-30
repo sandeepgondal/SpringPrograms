@@ -1,4 +1,4 @@
-package com.sandy.spring.di.xml;
+package com.sandy.spring.di.xmlconfig;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;

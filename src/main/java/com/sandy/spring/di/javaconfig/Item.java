@@ -1,18 +1,16 @@
-package com.sandy.spring.di.java;
+package com.sandy.spring.di.javaconfig;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 @Component
-public class Customer {
+public class Item {
 
     private int id;
     private String name;
-    @Autowired private Item item;
 
-    public Customer() {
-        this.id = 111;
-        this.name = "ABC";
+    public Item() {
+        this.id = 123;
+        this.name = "Soap";
     }
 
     public int getId() {
@@ -31,20 +29,11 @@ public class Customer {
         this.name = name;
     }
 
-    public Item getItem() {
-        return item;
-    }
-
-    public void setItem(final Item item) {
-        this.item = item;
-    }
-
     @Override
     public String toString() {
-        return "Customer{" +
+        return "Item{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", item=" + item +
                 '}';
     }
 }
