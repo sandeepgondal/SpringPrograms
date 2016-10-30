@@ -6,4 +6,7 @@
     <bean id="singletonBean" class="com.sandy.spring.di.beanscopes.SingletonBean" scope="singleton" />
     <bean id="prototypeBean" class="com.sandy.spring.di.beanscopes.PrototypeBean" scope="prototype" />
 
+    <!-- Custom scopes -->
+    <bean id="customScope" class="com.sandy.spring.di.beanscopes.CustomScopeBean" scope="custom" />
+
 </beans>
