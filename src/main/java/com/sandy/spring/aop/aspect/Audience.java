@@ -1,4 +1,4 @@
-package com.sandy.spring.aop;
+package com.sandy.spring.aop.aspect;
 
 import org.aspectj.lang.annotation.AfterReturning;
 import org.aspectj.lang.annotation.AfterThrowing;
@@ -9,7 +9,7 @@ import org.aspectj.lang.annotation.Pointcut;
 @Aspect
 public class Audience {
 
-    @Pointcut("execution(* com.sandy.spring.aop.Performance.perform())")
+    @Pointcut("execution(* com.sandy.spring.aop.aspect.Performance.perform())")
     public void performance() {
 
     }

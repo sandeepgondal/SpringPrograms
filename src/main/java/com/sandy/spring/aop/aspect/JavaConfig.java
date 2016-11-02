@@ -1,4 +1,4 @@
-package com.sandy.spring.aop;
+package com.sandy.spring.aop.aspect;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;

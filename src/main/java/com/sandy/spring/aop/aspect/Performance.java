@@ -1,4 +1,4 @@
-package com.sandy.spring.aop;
+package com.sandy.spring.aop.aspect;
 
 public interface Performance {
 

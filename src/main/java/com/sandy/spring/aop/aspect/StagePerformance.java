@@ -1,4 +1,4 @@
-package com.sandy.spring.aop;
+package com.sandy.spring.aop.aspect;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
